@@ -23,7 +23,7 @@ connects to the network and saves the network with the provided ssid and passwor
 
 Using ADB:
 
-`adb shell am start -n "no.normedia.adbwificonnector/.WifiConnectActivity/connect" -e "ssid" "myssid" -e "password" "mypassword" --ez "connect" true`
+`adb shell am start -n "no.normedia.adbwificonnector/.WifiConnectActivity/connect" -e "ssid" "myssid" -e "password" "mypassword"`
 
 On an interactive shell:
 

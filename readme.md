@@ -22,9 +22,11 @@ Replace myssid and mypassword with actual ssid and password
 connects to the network and saves the network with the provided ssid and password. (It is saved even if it's invalid)
 
 Using ADB:
+
 `adb shell am start -n "no.normedia.adbwificonnector/.WifiConnectActivity/connect" -e "ssid" "myssid" -e "password" "mypassword" --ez "connect" true`
 
 On an interactive shell:
+
 `am start -n "no.normedia.adbwificonnector/.WifiConnectActivity/connect" -e ssid "myssid" -e password "mypassword"`
 
 ### disconnect
@@ -32,7 +34,9 @@ On an interactive shell:
 disconnects and removes the network from the device
 
 Using ADB:
+
 `adb shell am start -n "no.normedia.adbwificonnector/.WifiConnectActivity/disconnect" -e "ssid" "myssid"`
 
 On an interactive shell:
+
 `am start -n "no.normedia.adbwificonnector/.WifiConnectActivity/disconnect" -e ssid "myssid"`

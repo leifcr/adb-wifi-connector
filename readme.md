@@ -23,11 +23,11 @@ connects to the network and saves the network with the provided ssid and passwor
 
 Using ADB:
 
-`adb shell am start -n "no.normedia.adbwificonnector/.WifiConnectActivity/connect" -e "ssid" "myssid" -e "password" "mypassword"`
+`adb shell am start -n "no.normedia.adbwificonnector/.WiFiConnectActivity/connect" -e "ssid" "myssid" -e "password" "mypassword"`
 
 On an interactive shell:
 
-`am start -n "no.normedia.adbwificonnector/.WifiConnectActivity/connect" -e ssid "myssid" -e password "mypassword"`
+`am start -n "no.normedia.adbwificonnector/.WiFiConnectActivity/connect" -e ssid "myssid" -e password "mypassword"`
 
 ### disconnect
 
@@ -35,8 +35,8 @@ disconnects and removes the network from the device
 
 Using ADB:
 
-`adb shell am start -n "no.normedia.adbwificonnector/.WifiConnectActivity/disconnect" -e "ssid" "myssid"`
+`adb shell am start -n "no.normedia.adbwificonnector/.WiFiConnectActivity/disconnect" -e "ssid" "myssid"`
 
 On an interactive shell:
 
-`am start -n "no.normedia.adbwificonnector/.WifiConnectActivity/disconnect" -e ssid "myssid"`
+`am start -n "no.normedia.adbwificonnector/.WiFiConnectActivity/disconnect" -e ssid "myssid"`

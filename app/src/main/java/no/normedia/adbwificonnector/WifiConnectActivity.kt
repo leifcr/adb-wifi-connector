@@ -10,7 +10,7 @@ import android.os.Looper
 import android.widget.TextView
 import androidx.activity.ComponentActivity
 
-class WifiConnectActivity : ComponentActivity() {
+class WiFiConnectActivity : ComponentActivity() {
     private lateinit var wifiManager: WifiManager
     private var netId: Int = -1
 
